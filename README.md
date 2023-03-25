@@ -1,2 +1,2 @@
-# personal-website
- Code for my personal website built with Django and React. Showcase my work, blog about my interests, and share my thoughts with the world. Open source under the MIT license.
+# Personal Website
+This repository contains the code for my personal website, where I showcase my work, blog about my interests, and share my thoughts with the world. The website is built using Django and React, and is fully responsive and mobile-friendly. I have included detailed documentation on how to set up the development environment and deploy the website to production. The code is open source and available for anyone to use and modify, under the MIT license. Feel free to fork the repository and make it your own!
