@@ -1,25 +1,25 @@
 # Base image
 FROM python:3.9
 
-# Set environment variables
-ENV PYTHONUNBUFFERED 1
-ENV NODE_VERSION 14.x
+# # Set environment variables
+# ENV PYTHONUNBUFFERED 1
+# ENV NODE_VERSION 14.x
 
-# Install dependencies
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-    curl \
-    nodejs \
-    npm \
-    gettext \
-    libpq-dev \
-    && rm -rf /var/lib/apt/lists/*
+# # Install dependencies
+# RUN apt-get update \
+#     && apt-get install -y --no-install-recommends \
+#     curl \
+#     nodejs \
+#     npm \
+#     gettext \
+#     libpq-dev \
+#     && rm -rf /var/lib/apt/lists/*
 
-# Install Node.js
-RUN curl -sL https://deb.nodesource.com/setup_$NODE_VERSION | bash -
+# # Install Node.js
+# RUN curl -sL https://deb.nodesource.com/setup_$NODE_VERSION | bash -
 
-# Upgrade npm
-RUN npm install -g npm
+# # Upgrade npm
+# RUN npm install -g npm
 
 # # Install Python dependencies
 # RUN pip install --upgrade pip

@@ -1,0 +1,7 @@
+personal_website/api/__pycache__/
+personal_website/api/migrations/__pycache__/__init__.cpython-311.pyc
+personal_website/api/migrations/__pycache__/
+personal_website/personal_website/__pycache__/
+venv
+
+personal_website/db.sqlite3
